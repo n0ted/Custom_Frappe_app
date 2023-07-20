@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-18 11:01:29.172337",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "datee",
+  "column_break_ia1bu",
+  "time",
+  "section_break_ieq22",
+  "stage",
+  "column_break_2sxlf",
+  "details"
+ ],
+ "fields": [
+  {
+   "fieldname": "time",
+   "fieldtype": "Data",
+   "label": "time"
+  },
+  {
+   "fieldname": "datee",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "column_break_2sxlf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ia1bu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ieq22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stage",
+   "fieldtype": "Select",
+   "label": "Stage ",
+   "options": "Lead\nContacted\nPO\nCustomer"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Table",
+   "label": "details",
+   "options": "tab"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-20 11:19:18.156439",
+ "modified_by": "Administrator",
+ "module": "App1",
+ "name": "new",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
